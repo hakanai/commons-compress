@@ -1,0 +1,272 @@
+repo_name: hakanai/commons-compress
+report_id: 44ba41aaca3011a5d137caa896170e6f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:34:10+00:00'
+requested_by: bodewig
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/commons-compress
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/commons-compress
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Torsten Curdt
+  last_updated_on: 2008-07-10 10:17:44.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2016-04-09 16:25:14.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Torsten Curdt
+  last_updated_on: 2008-07-10 10:17:44.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Simon Spero
+  last_updated_on: 2017-06-30 23:01:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/hakanai/commons-compress
+  detection_source: Repo Metadata
+- name: com.github.luben:zstd-jni
+  description: JNI bindings for Zstd native library that provides fast and high compression
+    lossless algorithm for Java and all JVM languages
+  version: 1.4.3
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2018-12-17 11:10:18.000000000 Z
+- name: javax.inject:javax.inject
+  description: The javax.inject API
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2018-08-16 16:04:35.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2018-04-23 20:11:27.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.apache.felix:org.apache.felix.framework
+  description: Apache Felix is a community effort to implement the OSGi Framework
+    and Service platform and other interesting OSGi-related technologies
+  version: 6.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2019-04-16 15:23:35.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-cm
+  description: In-Container Test Framework for OSGi
+  version: 4.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-04-30 21:27:49.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-container-native
+  description: Leverages the OSGi R4.2 Launch API so it just works with newer osgi
+    implementations
+  version: 4.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-04-30 21:27:49.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-junit4
+  description: Pax Exam Integration testing framework for Modern Java Platforms
+  version: 4.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-04-30 21:27:49.000000000 Z
+- name: org.ops4j.pax.exam:pax-exam-link-mvn
+  description: Pax Exam Integration testing framework for Modern Java Platforms
+  version: 4.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-04-30 21:27:49.000000000 Z
+- name: org.osgi:org.osgi.core
+  description: OSGi Core Release 6
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2018-06-19 15:16:29.000000000 Z
+- name: org.powermock:powermock-api-mockito
+  description: PowerMock API for Mockito 1.+.
+  version: 1.7.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-04-30 21:25:17.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: 1.7.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-04-30 21:25:17.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.7.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Gary Gregory
+  last_updated_on: 2019-02-28 14:28:08.000000000 Z
+- name: org.tukaani:xz
+  description: XZ data compression
+  version: '1.8'
+  license: Unlicense
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/commons-compress/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stefan Bodewig
+  last_updated_on: 2018-06-19 15:16:29.000000000 Z
